@@ -1,0 +1,35 @@
+# Auto detect text files and perform LF normalization
+* text=auto
+
+# Custom for Visual Studio
+*.cs     diff=csharp
+
+# Standard to msysgit
+*.doc	 diff=astextplain
+*.DOC	 diff=astextplain
+*.docx diff=astextplain
+*.DOCX diff=astextplain
+*.dot  diff=astextplain
+*.DOT  diff=astextplain
+*.pdf  diff=astextplain
+*.PDF	 diff=astextplain
+*.rtf	 diff=astextplain
+*.RTF	 diff=astextplain
+
+# TypeScript and JavaScript
+*.ts linguist-language=TypeScript
+*.js linguist-language=JavaScript
+*.json linguist-language=JSON
+
+# Angular specific
+*.html linguist-language=HTML
+*.scss linguist-language=SCSS
+*.css linguist-language=CSS
+
+# Documentation
+*.md linguist-documentation=true
+docs/* linguist-documentation=true
+
+# Lock files should not be modified manually
+package-lock.json binary
+yarn.lock binary
